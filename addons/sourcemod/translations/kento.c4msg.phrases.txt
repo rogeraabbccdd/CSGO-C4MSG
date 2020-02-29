@@ -1,0 +1,101 @@
+//**********************************************  Valid Colors	********************************************************
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}, {ORANGE} *
+//**********************************************************************************************************************
+//                                     http://i.imgur.com/q2wb8Cu.png                                                  *
+//{NORMAL} = x01 | {DARKRED} = x02 | {PINK} = x03 | {GREEN} = x04 | {YELLOW} = x09 | {LIGHTGREEN} = x06 | {RED} = x07  *
+//{GRAY} = x08 | {BLUE} = x0B | {DARKBLUE} = x0C | {PURPLE} = x0E|  {ORANGE} = x10                                     *
+//**********************************************************************************************************************
+
+"Phrases"
+{
+  "BombExplodedTimeLeftMessage"
+  {
+    "#format" "{1:s},{2:s},{3:s}"
+    "en"			"{GREEN}[{1}] {BLUE}{2}{NORMAL} was too late by {RED}{3}s{NORMAL}!"
+    "zho"			"{GREEN}[{1}] {BLUE}{2}{NORMAL} 差 {RED}{3} {NORMAL}秒就能拆除炸彈!"
+  }
+  "SuccessfulDefuseTimeLeftMessage"
+  {
+    "#format" "{1:s},{2:s},{3:s}"
+    "en"      "{GREEN}[{1}] {BLUE}{2}{NORMAL} defused with {RED}{3}s{NORMAL} remaining!"
+    "zho"			"{GREEN}[{1}] {BLUE}{2}{NORMAL} 在剩下 {RED}{3}{NORMAL} 秒時拆除炸彈!"
+  }
+  "DefuserDiedTimeLeftMessage"
+  {
+    "#format" "{1:s},{2:s},{3:s}"
+    "en"      "{GREEN}[{1}] {BLUE}{2}{NORMAL} was {RED}{3}s{NORMAL} away from defusing!"
+    "zho"     "{GREEN}[{1}] {BLUE}{2}{NORMAL} 剩下 {RED}{3}{NORMAL} 秒就能拆除炸彈了!"
+  }
+  "PostDefuseKillTimeMessage"
+  {
+    "#format" "{1:s},{2:s},{3:s}"
+    "en"      "{GREEN}[{1}] {ORANGE}{2}{NORMAL} was {RED}{3}s{NORMAL} too late to stop the defuser!"
+    "zho"			"{GREEN}[{1}] {ORANGE}{2}{NORMAL} 差 {RED}{3}{NORMAL} 秒就能阻止炸彈被拆除!"
+  }
+  "countdown 0"
+  {
+    "#format" "{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+  "countdown 1"
+  {
+    "#format"	"{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+  "countdown 2"
+  {
+    "#format"	"{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+  "countdown 3"
+  {
+    "#format"	"{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+  "countdown 4"
+  {
+    "#format" "{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+  "countdown 5"
+  {
+    "#format" "{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+  "countdown 6"
+  {
+    "#format" "{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+  "countdown 7"
+  {
+    "#format" "{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+  "countdown 8"
+  {
+    "#format" "{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+  "countdown 9"
+  {
+    "#format" "{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+  "countdown 10"
+  {
+    "#format" "{1:d}"
+    "en"      "<font size='50' color='#FF0000'>{1}</font>"
+    "zho"     "<font size='50' color='#FF0000'>{1}</font>"
+  }
+}
